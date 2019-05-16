@@ -2,7 +2,7 @@
 
 import unittest
 import time
-from HTMLTestRunner import HTMLTestRunner
+from HTMLTestRunnerCN import HTMLTestRunner
 
 dirpath = './scripts'
 discover = unittest.defaultTestLoader.discover(dirpath, pattern='*_tc.py')
